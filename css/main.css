@@ -170,29 +170,27 @@ nav a:focus {
 
 /*** Mobile style css adds ***/
 
-nav{
+ul li{
   text-align: center;
 }
-/* adding margin to create box style */
+
 nav ul{
-  margin-top: 1em;
+  margin-top: 5em;
   text-align: center;
 }
 
 nav ul li{
-  margin: 1em 2em 1em 2em;
+  margin: 2em 3em 2em 3em;
 }
 
 .sm{
-  /* using flex to display content in a row and adding a column gap */
+
   display: flex;
   justify-content: center;
   column-gap: .5em;
 }
 
 .im{
-  padding-top: .3em;
-  justify-content: center;
-  /* using transform to increase the size of the social icons */
-  transform: scale(2);
+  font-size: 2em;
 }
+
