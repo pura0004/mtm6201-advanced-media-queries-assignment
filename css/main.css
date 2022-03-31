@@ -200,8 +200,8 @@ nav ul li{
   
   nav ul{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 2.5em;
+    grid-template-columns: 1.5fr 1.5fr;
+    margin: 40px;
     grid-gap: 2em;
   }
 
@@ -210,7 +210,33 @@ nav ul li{
   }
 
 
-  
+
 .sm{
   column-gap: 1.5em;
 }
+
+
+/*** Desktop style media queries **/
+
+
+
+@media screen and (min-width: 62.5em) {
+  
+  nav ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    column-gap:  40px;
+  }
+
+  /* styling the icons using display grid so it sits in 2 columns and 2 rows */
+  .sm{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    width: fit-content;
+    grid-gap: 1.5em;
+    float: right;
+    margin-right: 2.5em;
+  }
+}
+
