@@ -240,13 +240,36 @@ nav ul li{
   }
 }
 
-/*** color scheme adds ***/
+/*** dark color scheme adds ***/
+
+@media (prefers-color-scheme: dark) {
+  /* Styles */
+  body {
+    background-color: #646464;
+  }
+
+  nav a,
+  nav a:link,
+  nav a:visited {
+    background-color: #E0FF8D;
+    color: black;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background-color: #968DFF;
+    color: white;
+  }
+  }
+
+/*** dark color scheme adds ***/
+
 
 @media (prefers-color-scheme: light) {
 
 
   body{
-    background-color: #e0ff8c;
+    background-color: #E0FF8D;
   }
 
   nav a,
@@ -261,6 +284,5 @@ nav ul li{
     background-color: #646464;
   }
 }
-
 
 
