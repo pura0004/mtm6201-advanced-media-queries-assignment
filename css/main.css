@@ -166,3 +166,33 @@ nav a:focus {
   background-color: #968DFF;
   color: white;
 }
+
+
+/*** Mobile style css adds ***/
+
+nav{
+  text-align: center;
+}
+/* adding margin to create box style */
+nav ul{
+  margin-top: 1em;
+  text-align: center;
+}
+
+nav ul li{
+  margin: 1em 2em 1em 2em;
+}
+
+.sm{
+  /* using flex to display content in a row and adding a column gap */
+  display: flex;
+  justify-content: center;
+  column-gap: .5em;
+}
+
+.im{
+  padding-top: .3em;
+  justify-content: center;
+  /* using transform to increase the size of the social icons */
+  transform: scale(2);
+}
