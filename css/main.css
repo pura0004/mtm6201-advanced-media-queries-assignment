@@ -194,3 +194,23 @@ nav ul li{
   font-size: 2em;
 }
 
+/*** Tablet stlye media queries added***/
+
+@media screen and (min-width: 699px) {
+  
+  nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2.5em;
+    grid-gap: 2em;
+  }
+
+  nav ul li{
+    margin: unset;
+  }
+
+
+  
+.sm{
+  column-gap: 1.5em;
+}
