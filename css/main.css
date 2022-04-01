@@ -231,12 +231,9 @@ nav ul li{
 
   .sm{
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    grid-template-rows: 1.5fr 1.5fr;
-    width: fit-content;
-    grid-gap: 1.5em;
-    float: right;
-    margin-right: 2.5em;
+    margin: 0;
+    justify-content: center;
+    display: flex;  
   }
 }
 
