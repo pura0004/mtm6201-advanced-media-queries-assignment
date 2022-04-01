@@ -233,7 +233,7 @@ nav ul li{
 
   .sm{
     display: grid;
-    margin: 0;
+    margin: 5px;
     justify-content: center;
     display: flex;  
   }
